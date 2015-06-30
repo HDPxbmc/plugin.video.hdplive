@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.hdplive"
+  name="HDP直播"
+  version="0.2.0"
+  provider-name="HDPfans">
+  <requires>
+    <import addon="script.module.elementtree"  version="1.2.7" optional="false"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0" optional="false"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>HDPfans Live TV</summary>
+    <summary lang="zh">HDPfans网络电视直播</summary>
+    <description>Live TV collected by HDPfans</description>
+    <description lang="zh">高清范HDPfans网络电视直播，争取打造最好xbmc中文插件。更多xbmc优秀插件分享，插件编写教程请上高清范网站 http://www.hdpfans.com</description>
+    <disclaimer>本插件数据均源自互联网数据聚合，仅供学习和研究使用。</disclaimer>
+  </extension>
+</addon>

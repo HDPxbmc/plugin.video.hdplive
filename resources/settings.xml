@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf8" standalone="yes"?>
+<settings>
+	<setting id="combine_user_resources" type="bool" label="是否合并显示私有直播" default="true" />
+</settings>
